@@ -1,0 +1,34 @@
+\babel@toc {american}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Comparison of representative loss functions for medical image segmentation}}{28}{table.caption.14}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Commonly used evaluation metrics for medical image segmentation and quantitative scar assessment}}{32}{table.caption.15}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Summary of representative studies on deep learning-based CMR image analysis}}{33}{table.caption.16}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Characteristics of the ACDC dataset}}{37}{table.caption.19}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Characteristics of the MyOPS2020 dataset}}{39}{table.caption.21}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Overview of the experimental design adopted in this study}}{49}{table.caption.28}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Performance evaluation metrics adopted in this study}}{51}{table.caption.29}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Training configuration}}{66}{table.caption.33}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Final loss values obtained using different pooling mechanisms and loss functions}}{71}{table.caption.35}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Quantitative comparison between max pooling and fuzzy pooling}}{73}{table.caption.36}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Classification of investigated loss functions}}{86}{table.caption.40}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Standardized training strategy adopted in this study}}{88}{table.caption.41}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Dataset distribution}}{90}{table.caption.42}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Experimental Environment}}{91}{table.caption.43}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Training configuration adopted in this study}}{91}{table.caption.44}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Evaluation metrics used in this study}}{92}{table.caption.45}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces Summary of Training Behaviour based on Figure~\ref {fig:ch5-training-performance}}}{95}{table.caption.47}%
+\contentsline {table}{\numberline {5.8}{\ignorespaces Evaluation results of state-of-the-art models and proposed CrossLov using IoU, HD, and Dice Score}}{97}{table.caption.48}%
+\contentsline {table}{\numberline {5.9}{\ignorespaces Summary of Quantitative Performance based on Table~\ref {tab:ch5-quantitative-compare-loss}}}{98}{table.caption.49}%
+\contentsline {table}{\numberline {5.10}{\ignorespaces Summary of visual assessment based on Figure 5.4}}{102}{table.caption.51}%
+\contentsline {table}{\numberline {5.11}{\ignorespaces Summary of training behaviour}}{102}{table.caption.52}%
+\contentsline {table}{\numberline {5.12}{\ignorespaces Overall Summary of Experimental Findings}}{104}{table.caption.53}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Dataset composition and patient-level splitting protocol}}{116}{table.caption.56}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Quantitative comparison of myocardial scar segmentation performance}}{120}{table.caption.58}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Scar area quantification: automated vs. manual annotation (our test split) \citep {Riandini2026Access}}}{124}{table.caption.60}%
+\contentsline {table}{\numberline {6.4}{\ignorespaces Computational performance comparison of the evaluated segmentation frameworks}}{127}{table.caption.63}%
+\addvspace {10\p@ }

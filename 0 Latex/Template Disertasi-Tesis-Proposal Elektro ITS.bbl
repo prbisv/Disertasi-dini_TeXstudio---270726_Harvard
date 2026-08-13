@@ -1,0 +1,449 @@
+\begin{thebibliography}{63}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Agrawal et~al.(2020)Agrawal, Agrawal, Kharadi, Mohan, and
+  Gahlot]{Agrawal2020}
+Aishwarya Agrawal, Sahil Agrawal, Mohammad~Danish Kharadi, Jagdish~Chandra
+  Mohan, and Akhilesh~K. Gahlot.
+\newblock Cardiac {MRI} for myocardial infarction: A brief review.
+\newblock \emph{Journal of Magnetic Resonance Imaging}, 51\penalty0
+  (5):\penalty0 1338--1351, 2020.
+
+\bibitem[Awada et~al.(2016)Awada, Al-Kadi, and Al-Naami]{Awada2016}
+Khalid Awada, Omar~S. Al-Kadi, and Bader Al-Naami.
+\newblock Assessment of myocardial infarction progression using texture
+  analysis of cardiac magnetic resonance images.
+\newblock \emph{Computers in Biology and Medicine}, 79:\penalty0 162--175,
+  2016.
+\newblock \doi{10.1016/j.compbiomed.2016.10.015}.
+
+\bibitem[Azad et~al.(2023)Azad, Heidary, Yilmaz, et~al.]{Azad2023}
+Reza Azad, Mohsen Heidary, Kadir Yilmaz, et~al.
+\newblock Loss functions in the era of semantic segmentation: A survey and
+  outlook.
+\newblock \emph{arXiv preprint arXiv:2312.05391}, 2023.
+
+\bibitem[Berman et~al.(2018)Berman, Triki, and Blaschko]{Berman2018}
+Maxim Berman, Amal~Rannen Triki, and Matthew~B. Blaschko.
+\newblock The lovász-softmax loss: A tractable surrogate for the optimization
+  of the intersection-over-union measure in neural networks.
+\newblock In \emph{Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 4413--4421, 2018.
+
+\bibitem[Bernard et~al.(2018)Bernard, Lalande, Zotti, et~al.]{Bernard2018}
+Olivier Bernard, Alain Lalande, Clément Zotti, et~al.
+\newblock Deep learning techniques for automatic {MRI} cardiac multi-structures
+  segmentation and diagnosis: Is the problem solved?
+\newblock \emph{IEEE Transactions on Medical Imaging}, 37\penalty0
+  (11):\penalty0 2514--2525, 2018.
+\newblock \doi{10.1109/TMI.2018.2837502}.
+
+\bibitem[Bland and Altman(1986)]{Bland1986}
+J.~Martin Bland and Douglas~G. Altman.
+\newblock Statistical methods for assessing agreement between two methods of
+  clinical measurement.
+\newblock \emph{The Lancet}, 327\penalty0 (8476):\penalty0 307--310, 1986.
+
+\bibitem[Chen et~al.(2020)]{Chen2020Review}
+Chen Chen et~al.
+\newblock Deep learning for cardiac image segmentation: A review.
+\newblock \emph{Frontiers in Cardiovascular Medicine}, 7:\penalty0 25, 2020.
+\newblock \doi{10.3389/fcvm.2020.00025}.
+
+\bibitem[Diamantis and Iakovidis(2021)]{Diamantis2020}
+Dimitrios~E. Diamantis and Dimitris~K. Iakovidis.
+\newblock Fuzzy pooling.
+\newblock \emph{IEEE Transactions on Fuzzy Systems}, 29\penalty0 (11):\penalty0
+  3481--3488, 2021.
+
+\bibitem[Ding et~al.(2023)Ding, Li, Qiu, et~al.]{Ding2023}
+W.~Ding, L.~Li, J.~Qiu, et~al.
+\newblock Aligning multi-sequence {CMR} towards fully automated myocardial
+  pathology segmentation.
+\newblock \emph{IEEE Transactions on Medical Imaging}, 42\penalty0
+  (12):\penalty0 3474--3486, 2023.
+
+\bibitem[Giavarina(2015)]{Giavarina2015}
+Davide Giavarina.
+\newblock Understanding bland altman analysis.
+\newblock \emph{Biochemia Medica}, 25\penalty0 (2):\penalty0 141--151, 2015.
+
+\bibitem[Goodfellow et~al.(2016)Goodfellow, Bengio, and
+  Courville]{Goodfellow2016}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock \emph{Deep Learning}.
+\newblock MIT Press, 2016.
+
+\bibitem[He et~al.(2016)He, Zhang, Ren, and Sun]{He2016}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Deep residual learning for image recognition.
+\newblock In \emph{Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 770--778, 2016.
+
+\bibitem[Hesamian et~al.(2019)Hesamian, Jia, He, and Kennedy]{Hesamian2019}
+Mohammad~Hesam Hesamian, Wenjing Jia, Xiangjian He, and Paul Kennedy.
+\newblock Deep learning techniques for medical image segmentation: Achievements
+  and challenges.
+\newblock \emph{Journal of Digital Imaging}, 32:\penalty0 582--596, 2019.
+
+\bibitem[Hu et~al.(2018)Hu, Shen, and Sun]{Hu2018}
+Jie Hu, Li~Shen, and Gang Sun.
+\newblock Squeeze-and-excitation networks.
+\newblock In \emph{Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 7132--7141, 2018.
+
+\bibitem[Ibanez et~al.(2018)Ibanez, James, Agewall, et~al.]{Ibanez2018}
+Borja Ibanez, Stefan James, Stefan Agewall, et~al.
+\newblock 2017 {ESC} guidelines for the management of acute myocardial
+  infarction in patients presenting with {ST}-segment elevation.
+\newblock \emph{European Heart Journal}, 39\penalty0 (2):\penalty0 119--177,
+  2018.
+
+\bibitem[Isensee et~al.(2018)Isensee, Jaeger, Full, Wolf, Engelhardt, and
+  Maier-Hein]{Isensee2018}
+Fabian Isensee, Paul~F. Jaeger, Peter~M. Full, Ivo Wolf, Sandy Engelhardt, and
+  Klaus~H. Maier-Hein.
+\newblock Automatic cardiac disease assessment on cine-{MRI} via time-series
+  segmentation and domain specific features.
+\newblock In \emph{Statistical Atlases and Computational Models of the Heart:
+  ACDC and MMWHS Challenges}, pages 120--129. Springer, 2018.
+
+\bibitem[Jadon(2020)]{Jadon2020}
+Shruti Jadon.
+\newblock A survey of loss functions for semantic segmentation.
+\newblock In \emph{2020 IEEE Conference on Computational Intelligence in
+  Bioinformatics and Computational Biology}, 2020.
+
+\bibitem[Karim et~al.(2016)Karim, Bhagirath, Claus, Housden, Chen,
+  Karimaghaloo, Sohn, Rodríguez, Vera, Albà, Hennemuth, Peitgen, Arbel,
+  Ballester, Frangi, Götte, Razavi, Schaeffter, and Rhode]{Karim2016}
+Rashed Karim, Pranav Bhagirath, Piet Claus, R.~James Housden, Zhen Chen, Zahra
+  Karimaghaloo, Hae-Moon Sohn, Laura~Lara Rodríguez, Sergio Vera, Xavier
+  Albà, Anja Hennemuth, Heinz-Otto Peitgen, Tal Arbel, Miguel A.~González
+  Ballester, Alejandro~F. Frangi, Martijn Götte, Reza Razavi, Tobias
+  Schaeffter, and Kawal Rhode.
+\newblock Evaluation of state-of-the-art segmentation algorithms for left
+  ventricle infarct from late gadolinium enhancement {MR} images.
+\newblock \emph{Medical Image Analysis}, 30:\penalty0 95--107, 2016.
+\newblock \doi{10.1016/j.media.2016.01.004}.
+
+\bibitem[Karimi and Salcudean(2019)]{Karimi2019}
+Davood Karimi and Septimiu~E. Salcudean.
+\newblock Reducing the hausdorff distance in medical image segmentation with
+  convolutional neural networks.
+\newblock \emph{IEEE Transactions on Medical Imaging}, 39\penalty0
+  (2):\penalty0 499--513, 2019.
+\newblock \doi{10.1109/TMI.2019.2930068}.
+
+\bibitem[{Kementerian Kesehatan Republik Indonesia}(2021)]{Kemenkes2021}
+{Kementerian Kesehatan Republik Indonesia}.
+\newblock Profil kesehatan indonesia tahun 2021.
+\newblock Kementerian Kesehatan Republik Indonesia, 2021.
+
+\bibitem[Kim et~al.(2000)Kim, Wu, Rafael, et~al.]{Kim2000}
+Raymond~J. Kim, Edouard Wu, Allen Rafael, et~al.
+\newblock The use of contrast-enhanced magnetic resonance imaging to identify
+  reversible myocardial dysfunction.
+\newblock \emph{New England Journal of Medicine}, 343\penalty0 (20):\penalty0
+  1445--1453, 2000.
+
+\bibitem[Kim et~al.(1999)]{Kim1999}
+Raymond~J. Kim et~al.
+\newblock Relationship of {MRI} delayed contrast enhancement to irreversible
+  injury, infarct age, and contractile function.
+\newblock \emph{Circulation}, 100:\penalty0 1992--2002, 1999.
+
+\bibitem[Kramer et~al.(2020)Kramer, Schulz-Menger, Holmvang,
+  et~al.]{Kramer2020}
+Christopher~M. Kramer, J.~Schulz-Menger, K.~Holmvang, et~al.
+\newblock Standardized cardiovascular magnetic resonance imaging ({CMR})
+  protocols: 2020 update.
+\newblock \emph{Journal of Cardiovascular Magnetic Resonance}, 22:\penalty0 17,
+  2020.
+
+\bibitem[LeCun et~al.(2015)LeCun, Bengio, and Hinton]{LeCun2015}
+Yann LeCun, Yoshua Bengio, and Geoffrey Hinton.
+\newblock Deep learning.
+\newblock \emph{Nature}, 521:\penalty0 436--444, 2015.
+\newblock \doi{10.1038/nature14539}.
+
+\bibitem[Li et~al.(2023)Li, Wu, Wang, et~al.]{Li2023MyoPS}
+L.~Li, F.~Wu, S.~Wang, et~al.
+\newblock {MyoPS}: A benchmark of myocardial pathology segmentation combining
+  three-sequence cardiac magnetic resonance images.
+\newblock \emph{Medical Image Analysis}, 87:\penalty0 102808, 2023.
+
+\bibitem[Lin et~al.(2017)Lin, Goyal, Girshick, He, and Dollár]{Lin2017}
+Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollár.
+\newblock Focal loss for dense object detection.
+\newblock In \emph{Proceedings of the IEEE International Conference on Computer
+  Vision}, pages 2980--2988, 2017.
+
+\bibitem[Litjens et~al.(2017)Litjens, Kooi, Bejnordi, et~al.]{Litjens2017}
+Geert Litjens, Thijs Kooi, Babak~Ehteshami Bejnordi, et~al.
+\newblock A survey on deep learning in medical image analysis.
+\newblock \emph{Medical Image Analysis}, 42:\penalty0 60--88, 2017.
+
+\bibitem[Long et~al.(2015)Long, Shelhamer, and Darrell]{Long2015}
+Jonathan Long, Evan Shelhamer, and Trevor Darrell.
+\newblock Fully convolutional networks for semantic segmentation.
+\newblock In \emph{Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 3431--3440, 2015.
+
+\bibitem[Ma et~al.(2021)Ma, Chen, Ng, et~al.]{Ma2021}
+Jun Ma, Jianan Chen, Matthew Ng, et~al.
+\newblock Loss odyssey in medical image segmentation.
+\newblock \emph{Medical Image Analysis}, 71:\penalty0 102035, 2021.
+
+\bibitem[Margolis et~al.(2025)Margolis, Toso, Buoso, and Kozerke]{Margolis2025}
+I.~Margolis, L.~D. Toso, S.~Buoso, and S.~Kozerke.
+\newblock Two-stage weighted ensemble method for myocardial edema and scar
+  segmentation.
+\newblock In Xiahai Zhuang, W.~Ding, F.~Wu, S.~Gao, L.~Li, and S.~Wang,
+  editors, \emph{Comprehensive Analysis and Computing of Real-World Medical
+  Images (CARE 2024)}, volume 15548 of \emph{Lecture Notes in Computer
+  Science}, Cham, 2025. Springer.
+\newblock \doi{10.1007/978-3-031-87009-5_6}.
+
+\bibitem[Milletari et~al.(2016)Milletari, Navab, and Ahmadi]{Milletari2016}
+Fausto Milletari, Nassir Navab, and Seyed-Ahmad Ahmadi.
+\newblock {V-Net}: Fully convolutional neural networks for volumetric medical
+  image segmentation.
+\newblock In \emph{2016 Fourth International Conference on 3D Vision}, pages
+  565--571, 2016.
+
+\bibitem[Misra(2020)]{Misra2020}
+Diganta Misra.
+\newblock Mish: A self regularized non-monotonic activation function.
+\newblock \emph{arXiv preprint arXiv:1908.08681}, 2020.
+
+\bibitem[Nair and Hinton(2010)]{Nair2010}
+Vinod Nair and Geoffrey~E. Hinton.
+\newblock Rectified linear units improve restricted boltzmann machines.
+\newblock In \emph{Proceedings of the 27th International Conference on Machine
+  Learning}, pages 807--814, 2010.
+
+\bibitem[Nirthika et~al.(2022)Nirthika, Manivannan, Ramanan, and
+  Wang]{Nirthika2022}
+R.~Nirthika, S.~Manivannan, A.~Ramanan, and R.~Wang.
+\newblock Pooling in convolutional neural networks for medical image analysis:
+  A survey and an empirical study.
+\newblock \emph{Neural Computing and Applications}, 34\penalty0 (7):\penalty0
+  5321--5347, 2022.
+\newblock \doi{10.1007/s00521-022-06953-8}.
+
+\bibitem[Nwankpa et~al.(2018)Nwankpa, Ijomah, Gachagan, and
+  Marshall]{Nwankpa2018}
+Chigozie Nwankpa, Winifred Ijomah, Anthony Gachagan, and Stephen Marshall.
+\newblock Activation functions: Comparison of trends in practice and research
+  for deep learning.
+\newblock \emph{arXiv preprint arXiv:1811.03378}, 2018.
+
+\bibitem[Oktay et~al.(2018)Oktay, Schlemper, Folgoc, et~al.]{Oktay2018}
+Ozan Oktay, Jo~Schlemper, Loic~Le Folgoc, et~al.
+\newblock Attention {U-Net}: Learning where to look for the pancreas.
+\newblock \emph{arXiv preprint arXiv:1804.03999}, 2018.
+
+\bibitem[Otsu(1979)]{Otsu1979}
+Nobuyuki Otsu.
+\newblock A threshold selection method from gray-level histograms.
+\newblock \emph{IEEE Transactions on Systems, Man, and Cybernetics}, 9\penalty0
+  (1):\penalty0 62--66, 1979.
+\newblock \doi{10.1109/TSMC.1979.4310076}.
+
+\bibitem[Pennell(2010)]{Pennell2010}
+Dudley~J. Pennell.
+\newblock Cardiovascular magnetic resonance.
+\newblock \emph{Circulation}, 121:\penalty0 692--705, 2010.
+
+\bibitem[Petitjean and Dacher(2011)]{Petitjean2011}
+Caroline Petitjean and Jean-Nicolas Dacher.
+\newblock A review of segmentation methods in short axis cardiac {MR} images.
+\newblock \emph{Medical Image Analysis}, 15\penalty0 (2):\penalty0 169--184,
+  2011.
+
+\bibitem[Riandini et~al.(2022)Riandini, Purnama, Yuniarno, and
+  Purnomo]{Riandini2022IST}
+Riandini, I.~Ketut~Eddy Purnama, Eko~Mulyanto Yuniarno, and Mauridhi~Hery
+  Purnomo.
+\newblock Activation function selection for {U-Net} multi-structures
+  segmentation of end-diastole and end-systole frames of cine cardiac {MRI}.
+\newblock In \emph{Proceedings of the IEEE International Conference on Imaging
+  Systems and Techniques (IST)}, 2022.
+\newblock \doi{10.1109/IST55454.2022.9827772}.
+
+\bibitem[Riandini et~al.(2023)Riandini, Sardjono, Purnama, Yuniarno, and
+  Purnomo]{Riandini2023MeMeA}
+Riandini, Tri~Arief Sardjono, I.~Ketut~Eddy Purnama, Eko~Mulyanto Yuniarno, and
+  Mauridhi~Hery Purnomo.
+\newblock A {U-Net}-based system for cine cardiac segmentation on {MR} images:
+  The effect of fuzzy pooling layer type.
+\newblock In \emph{Proceedings of the IEEE International Symposium on Medical
+  Measurements and Applications (MeMeA)}, pages 1--6, Jeju, Republic of Korea,
+  June 2023.
+\newblock \doi{10.1109/MeMeA57477.2023.10171873}.
+
+\bibitem[Riandini et~al.(2025)Riandini, Yuniarno, Purnama, Aritsugi, and
+  Purnomo]{Riandini2025Array}
+Riandini, Eko~Mulyanto Yuniarno, I.~Ketut~Eddy Purnama, Masayoshi Aritsugi, and
+  Mauridhi~Hery Purnomo.
+\newblock Investigating diverse loss functions for myocardium ring segmentation
+  in cardiac magnetic resonance images using fuzzy pooling.
+\newblock \emph{Array}, 26:\penalty0 100382, July 2025.
+\newblock \doi{10.1016/j.array.2025.100382}.
+
+\bibitem[Riandini et~al.(2026)Riandini, Setiadi, Yuniarno, Purnama, Aritsugi,
+  and Purnomo]{Riandini2026Access}
+Riandini, Bambang Setiadi, Eko~Mulyanto Yuniarno, I.~Ketut~Eddy Purnama,
+  Masayoshi Aritsugi, and Mauridhi~Hery Purnomo.
+\newblock {MyoScarNet-RA}: A residual attention network for myocardial surface
+  area quantification based on scar segmentation.
+\newblock \emph{IEEE Access}, 14:\penalty0 76722--76747, 2026.
+\newblock \doi{10.1109/ACCESS.2026.3693753}.
+
+\bibitem[Richardson et~al.(2015)Richardson, Clarke, Quinn, and
+  Holmes]{Richardson2015}
+William~J. Richardson, Samuel~A. Clarke, Thomas~A. Quinn, and Jeffrey~W.
+  Holmes.
+\newblock Physiological implications of myocardial scar structure.
+\newblock \emph{Comprehensive Physiology}, 5\penalty0 (4):\penalty0 1877--1909,
+  2015.
+
+\bibitem[Ronneberger et~al.(2015)Ronneberger, Fischer, and
+  Brox]{Ronneberger2015}
+Olaf Ronneberger, Philipp Fischer, and Thomas Brox.
+\newblock {U-Net}: Convolutional networks for biomedical image segmentation.
+\newblock In \emph{Medical Image Computing and Computer-Assisted Intervention
+  -- MICCAI 2015}, pages 234--241, 2015.
+\newblock \doi{10.1007/978-3-319-24574-4_28}.
+
+\bibitem[Schlemper et~al.(2019)Schlemper, Oktay, Schaap, et~al.]{Schlemper2019}
+Jo~Schlemper, Ozan Oktay, Michiel Schaap, et~al.
+\newblock Attention gated networks: Learning to leverage salient regions in
+  medical images.
+\newblock \emph{Medical Image Analysis}, 53:\penalty0 197--207, 2019.
+
+\bibitem[Shade et~al.(2013)Shade, Blake, Boyle, Plank, and
+  Trayanova]{Shade2013}
+Jonathan~K. Shade, Robert~C. Blake, Patrick~M. Boyle, Gernot Plank, and
+  Natalia~A. Trayanova.
+\newblock Electrophysiological remodeling in the progressive stages of
+  myocardial infarction: A simulation study.
+\newblock \emph{Annals of Biomedical Engineering}, 41\penalty0 (9):\penalty0
+  1980--1993, 2013.
+\newblock \doi{10.1007/s10439-013-0810-7}.
+
+\bibitem[Shen et~al.(2017)Shen, Wu, and Suk]{Shen2017}
+Dinggang Shen, Guorong Wu, and Heung-Il Suk.
+\newblock Deep learning in medical image analysis.
+\newblock \emph{Annual Review of Biomedical Engineering}, 19:\penalty0
+  221--248, 2017.
+
+\bibitem[Siddique et~al.(2021)Siddique, Paheding, Elkin, and
+  Devabhaktuni]{Siddique2021}
+Nahian Siddique, Sidike Paheding, Colin~P. Elkin, and Vijay Devabhaktuni.
+\newblock {U-Net} and its variants for medical image segmentation: A review of
+  theory and applications.
+\newblock \emph{IEEE Access}, 9:\penalty0 82031--82057, 2021.
+
+\bibitem[Taha and Hanbury(2015)]{Taha2015}
+Abdel~Aziz Taha and Allan Hanbury.
+\newblock Metrics for evaluating 3d medical image segmentation: Analysis,
+  selection, and tool.
+\newblock \emph{BMC Medical Imaging}, 15\penalty0 (1):\penalty0 29, 2015.
+
+\bibitem[Thygesen et~al.(2019)Thygesen, Alpert, Jaffe, et~al.]{Thygesen2019}
+Kristian Thygesen, Joseph~S. Alpert, Allan~S. Jaffe, et~al.
+\newblock Fourth universal definition of myocardial infarction (2018).
+\newblock \emph{European Heart Journal}, 40\penalty0 (3):\penalty0 237--269,
+  2019.
+
+\bibitem[Tsao et~al.(2022)Tsao, Aday, Almarzooq, Beaton, Bittencourt, Boehme,
+  et~al.]{Tsao2022}
+Connie~W. Tsao, Ashkan~W. Aday, Ziyad~I. Almarzooq, Alexandra~Z. Beaton,
+  Marcelo~S. Bittencourt, Audrey~K. Boehme, et~al.
+\newblock Heart disease and stroke statistics---2022 update: A report from the
+  american heart association.
+\newblock \emph{Circulation}, 145\penalty0 (8):\penalty0 e153--e639, 2022.
+\newblock \doi{10.1161/CIR.0000000000001052}.
+
+\bibitem[Woo et~al.(2018)Woo, Park, Lee, and Kweon]{Woo2018}
+Sanghyun Woo, Jongchan Park, Joon-Young Lee, and In~So Kweon.
+\newblock {CBAM}: Convolutional block attention module.
+\newblock In \emph{Proceedings of the European Conference on Computer Vision},
+  pages 3--19, 2018.
+
+\bibitem[{World Health Organization}(2021)]{WHO2021}
+{World Health Organization}.
+\newblock Cardiovascular diseases ({CVDs}).
+\newblock Fact sheet, 2021.
+\newblock URL
+  \url{https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)}.
+
+\bibitem[Wu et~al.(2021)Wu, Tang, Li, Firmin, and Yang]{Wu2021}
+Y.~Wu, Z.~Tang, B.~Li, D.~Firmin, and G.~Yang.
+\newblock Recent advances in fibrosis and scar segmentation from cardiac {MRI}:
+  A state-of-the-art review and future perspectives.
+\newblock \emph{Frontiers in Physiology}, 12, 2021.
+
+\bibitem[Wyburd et~al.(2021)Wyburd, Dinsdale, Namburete, and
+  Jenkinson]{Wyburd2021}
+M.~K. Wyburd, N.~K. Dinsdale, A.~I. Namburete, and M.~Jenkinson.
+\newblock Teds-net: Enforcing diffeomorphisms in spatial transformers to
+  guarantee topology preservation in segmentations.
+\newblock In \emph{International Conference on Medical Image Computing and
+  Computer-Assisted Intervention}, pages 250--260. Springer, 2021.
+
+\bibitem[Xie et~al.(2024)Xie, Wu, and Zhu]{Xie2024}
+J.~Xie, Q.~Wu, and R.~Zhu.
+\newblock Entropy-guided contrastive learning for semi-supervised medical image
+  segmentation.
+\newblock \emph{IET Image Processing}, 18:\penalty0 312--326, 2024.
+\newblock \doi{10.1049/ipr2.12950}.
+
+\bibitem[Xue et~al.(2020)Xue, Xu, Zhang, Long, and Huang]{Xue2020}
+Yuyin Xue, Tao Xu, Hongwei Zhang, Long~R. Long, and Xiaolei Huang.
+\newblock {SegAN}: Adversarial network with multi-scale {L1} loss for medical
+  image segmentation.
+\newblock \emph{Neurocomputing}, 384:\penalty0 42--52, 2020.
+\newblock \doi{10.1016/j.neucom.2019.12.020}.
+
+\bibitem[Yeung et~al.(2022)Yeung, Sala, Schönlieb, and Rundo]{Yeung2022}
+Michael Yeung, Evis Sala, Carola-Bibiane Schönlieb, and Leonardo Rundo.
+\newblock Unified focal loss: Generalising dice and cross entropy-based losses
+  to handle class imbalanced medical image segmentation.
+\newblock \emph{Computerized Medical Imaging and Graphics}, 95:\penalty0
+  102026, 2022.
+
+\bibitem[Zadeh(1965)]{Zadeh1965}
+Lotfi~A. Zadeh.
+\newblock Fuzzy sets.
+\newblock \emph{Information and Control}, 8\penalty0 (3):\penalty0 338--353,
+  1965.
+
+\bibitem[Zhuang(2019)]{Zhuang2019}
+Xiahai Zhuang.
+\newblock Multivariate mixture model for myocardial segmentation combining
+  multi-source images.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}, 41\penalty0 (12):\penalty0 2933--2946, 2019.
+
+\bibitem[Zhuang(2020)]{Zhuang2020}
+Xiahai Zhuang.
+\newblock Myocardial pathology segmentation combining multi-sequence cardiac
+  magnetic resonance images: First challenge, {MyoPS} 2020.
+\newblock In \emph{International Workshop on Myocardial Pathology Segmentation
+  Combining Multi-Sequence Cardiac Magnetic Resonance Images}, pages 1--5.
+  Springer, 2020.
+
+\bibitem[Zou et~al.(2004)Zou, Warfield, Bharatha, et~al.]{Zou2004}
+Kelly~H. Zou, Simon~K. Warfield, Aditya Bharatha, et~al.
+\newblock Statistical validation of image segmentation quality based on a
+  spatial overlap index.
+\newblock \emph{Academic Radiology}, 11\penalty0 (2):\penalty0 178--189, 2004.
+
+\end{thebibliography}

@@ -1,0 +1,171 @@
+%*********************************
+%Format telah disesuaikan sesuai *
+%Panduan penulisan               *
+%Disertasi Dan Tesis ITS         *
+%*********************************
+%\documentclass[12pt, a4paper,twoside, bahasa]{report}
+
+\documentclass[12pt, a4paper,twoside,opneany]{report}
+\title{Buku Tesis}
+% Jika pakai windows untuk run
+%    pertama kali dan error.
+% Mohon cek miktex console jika 
+%    compiler latex nya menggunakan miktex.
+%------------------------------
+\input{./lib/init.tex}
+
+
+
+%************************************
+% 1. JENIS BUKU
+%    Pilih Salah Satu 
+%************************************
+%     \ProposalDisertasi
+%     \ProposalTesis 
+%     \Tesis{Magister Teknik (MT)}
+%\Disertasi{Doktor (Dr)}
+%***************************
+
+%\ProposalDisertasi
+%\ProposalTesis 
+%\Tesis{Magister Teknik (MT)}
+\Disertasi{Doctor (Dr)}
+
+
+%*******************************
+%2.  Tulislah Kode Yang Sesuai 
+%*******************************
+\Kode{Dissertation}
+%\Kode{TESIS - EE184401}
+%\Kode{Proposal Tesis}
+%\Kode{Proposal Disertasi}
+%*******************************
+
+%*******************************
+%  3. Judul Proposal, Tesis atau 
+%     Disertasi 
+%     dipilih Salah Satu 
+%-------------------------------
+% Tulislah Judul Dalam Bahasa Indonesia
+\Judul{Cardiac Segmentation and Scar Quantification on CMR Images: A Deep Learning Approach Toward Myocardial Infarction (MI) Assessment}
+% Tulislah Judul Dalam Bahasa Inggris
+\JudulEng{Cardiac Segmentation and Scar Quantification on CMR Images: A Deep Learning Approach Toward Myocardial Infarction (MI) Assessment}
+%************************************
+% 4. Identitas Mahasiswa
+% Format :\Mahasiswa{Nama}{Nrp}
+%------------------------------------
+\Mahasiswa{Riandini}{7022222013}
+%************************************
+% 5. Waktu Dan Ruang Ujian
+%------------------------------------
+%Tanggal Ujian 
+\TanggalUjian{??? $??^{th}$, 2026}
+% Perioda wisuda  
+\PeriodeWisuda{} 
+%Hari ujian dan Tempat Ujian 
+\HariUjian{???}
+\TempatUjian{B211}
+
+
+%************************************
+%6. Identitas Pembimbing 
+%   Maximal Tiga Pembimbing
+%   Format : \PembimbingXXX{Nama}{Nip}
+%-----------------------------------
+%\scalebox{.95}[1.0]{xxx}
+\PembimbingSatu{Prof.Dr.Ir. Mauridhi Hery Purnomo, M.Eng.}{195809161986011001}
+\PembimbingDua{Prof.Dr.I Ketut Eddy Purnama, S.T.,M.T.}{196907301995121001}
+\PembimbingTiga{Dr. Eko Mulyanto Yuniarno, S.T.,M.T.}{196806011995121009}
+%\PembimbingInternasional{Prof. Dr.Eng. Masayoshi Aritsugi}
+
+%************************************
+% 7. Identitas Penguji 
+%     Maximal 4 penguji
+%     Format : \PengujiXXX{Nama}{Nip}
+%-------------------------
+\PengujiSatu{Prof.Dr. Tri Arief Sardjono, S.T., M.T.}{197002121995121001}
+\PengujiDua{Dr. Diah Puspito Wulandari, S.T., M.Sc}{198012192005012001}
+%\PengujiTiga{Name ???}{??}
+\PengujiTiga{Prof. Dr.Eng. Masayoshi Aritsugi}{}
+
+%************************************
+% 8. Identitas Fakultas ------------------------------------
+\Fakultas{Faculty of Intelligent Electrical and Informatics Technology}
+\BeltFakultas{BeltFte}
+%************************************
+% 9. Identitas Departement
+%-----------------------------------
+\Departemen{Electrical Engineering }
+
+\KaDep{Ronny Mardiyanto, S.T., M.T., Ph.D.}{198101182003121003}
+%***********************************
+% 10. Footer Identitas Program Studi 
+%  Pada Cover
+%----------------------------------
+\CoverFooter{\normalsize
+DOCTORAL PROGRAM\\
+	DEPARTEMENT OF ELECTRICAL ENGINEERING\\
+	FACULTY OF INTELLIGENT ELECTRICAL \& INFORMATICS TECHNOLOGY\\
+	INSTITUT TEKNOLOGI SEPULUH NOPEMBER\\
+	SURABAYA\\
+	2026}
+
+%**********************************
+%File Penting Yang Dapat di Edit:
+%**********************************
+%Abstrak :
+%        ->\ubah\abstrak.tex
+%Abstrak Bhs Inggris :
+%        ->\ubah\abstrakEng.tex
+%Kata Penggantar :
+%        ->\ubah\pengantar.tex 
+%Nomenklatur :
+%        ->\ubah\Nomenklatur.tex
+%Database Daftar Pustaka
+%        ->\ubah\pustaka.bib
+%DaftarRiwayatHidup 
+%        ->\ubah\DaftarRiwayatHidup.tex
+%----------------------------------
+%**********************************
+%Dokumen Utama
+%----------------------------------
+\begin{document}
+	
+	\input{./lib/Tataletak.tex}
+	
+	\begin{spacing}{1.5}
+		
+		\input{./bab1/bab1}
+		%\cleardoublepage
+		\clearpage
+		
+		\input{./bab2/bab2}
+		%\cleardoublepage
+		\clearpage
+		
+		\input{./bab3/bab3}
+		%\cleardoublepage
+		\clearpage
+		
+		\input{./bab4/bab4}
+		%\cleardoublepage
+		\clearpage
+		
+		\input{./bab5/bab5}
+		%\cleardoublepage
+		\clearpage
+		
+		\input{./bab6/bab6}
+		%\cleardoublepage
+		\clearpage
+		
+		\input{./bab7/bab7}
+		%\cleardoublepage
+		\clearpage
+		
+	\end{spacing}
+	
+	\DaftarPustaka
+	
+	\DaftarRiwayatHidup
+\end{document}

@@ -1,0 +1,40 @@
+\babel@toc {american}{}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Overview of the Proposed Deep Learning Framework for CMR Image Analysis for Myocardial Infarction Assessment}}{2}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Fishbone analysis of research challenges in CMR analysis for MI assessment and the proposed solutions with corresponding contributions of this dissertation}}{5}{figure.caption.7}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Anatomy of the human heart \citep {Shade2013}}}{12}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Development of myocardial infarction following prolonged coronary artery obstruction \citep {Shade2013}}}{12}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Comparison of healthy and infarcted myocardium \citep {Awada2016}}}{12}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Representative CMR imaging sequences used for myocardial infarction assessment \citep {Xie2024}}}{14}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Representative LGE-CMR image showing myocardial scar \citep {Margolis2025}}}{17}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Comparison of the ReLU and Mish activation functions \citep {Riandini2022IST}}}{24}{figure.caption.13}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Overall Research Framework of the Proposed Deep Learning-Based CMR Image Analysis for Myocardial Infarction Assessment}}{36}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Representative cine CMR images and corresponding manual annotations from the ACDC dataset \citep {Bernard2018}: (a) End-Diastole (ED) phase, and (b) End-Systole (ES) phase.}}{38}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Representative multi-sequence CMR images from the MyoPS2020 dataset \citep {Zhuang2020}}}{39}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Overview of the dataset preparation procedure}}{40}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Overview of the cardiac structure segmentation framework}}{41}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Preparation of the myocardium region for myocardial scar assessment}}{45}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Overview of the myocardial scar assessment framework}}{45}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Preparation of multi-sequence CMR images for myocardial scar assessment}}{46}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Experimental design adopted in this study.}}{49}{figure.caption.27}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Overall workflow of the proposed enhanced U-Net framework for cardiac structure segmentation}}{56}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Integration of fuzzy pooling within the encoder of the proposed enhanced U-Net framework \citep {Riandini2023MeMeA}}}{61}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Illustration of comparison between conventional max pooling and the proposed fuzzy pooling operation \citep {Riandini2023MeMeA}}}{62}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Training and validation loss curves obtained using different pooling mechanisms and loss functions \citep {Riandini2023MeMeA}}}{70}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Qualitative comparison of cardiac structure segmentation obtained using conventional max pooling and the proposed fuzzy pooling for representative End-Diastole and End-Systole images \citep {Riandini2023MeMeA}}}{75}{figure.caption.37}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Overall framework for myocardium segmentation using the enhanced U-Net with fuzzy pooling and the investigated loss functions \citep {Riandini2025Array}}}{83}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Enhanced U-Net architecture applying fuzzy pooling for myocardium segmentation \citep {Riandini2025Array}}}{85}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Training performance of the investigated loss functions showing the training loss, testing loss, Dice score, computational time, and best-performing epoch obtained for each evaluated loss function \citep {Riandini2025Array}}}{94}{figure.caption.46}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Visual comparison of myocardium segmentation results obtained using the investigated loss functions. The predicted myocardium segmentation is shown in red, whereas the corresponding ground-truth annotation is shown in green \citep {Riandini2025Array}}}{100}{figure.caption.50}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Overall workflow of the proposed myocardial scar segmentation and quantitative assessment framework \citep {Riandini2026Access}}}{110}{figure.caption.54}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Architecture of the proposed MyoScarNet-RA for myocardial scar segmentation \citep {Riandini2026Access}}}{111}{figure.caption.55}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Training accuracy and loss curves of the proposed MyoScarNet-RA \citep {Riandini2026Access}}}{118}{figure.caption.57}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Example of myocardial scar segmentation result obtained using the proposed MyoScarNet-RA \citep {Riandini2026Access}}}{121}{figure.caption.59}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Representative examples of myocardial scar area estimation obtained using the proposed MyoScarNet-RA \citep {Riandini2026Access}}}{123}{figure.caption.61}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Bland--Altman plot analysis comparing automated myocardial scar area estimation with expert/manual measurements \citep {Riandini2026Access}}}{126}{figure.caption.62}%
+\addvspace {10\p@ }
