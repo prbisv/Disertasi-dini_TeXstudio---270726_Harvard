@@ -1,0 +1,40 @@
+\chapter{CONCLUSIONS AND FUTURE WORKS}
+\label{chap:7}
+
+\section{Conclusions}
+\label{sec:ch7-conclusions}
+
+\subsection{Contribution to Cardiac Structure Segmentation}
+
+The first contribution of this research is the development of an enhanced U-Net framework incorporating fuzzy pooling for automatic cardiac structure segmentation from cine Cardiac Magnetic Resonance (CMR) images. The proposed framework demonstrated that replacing conventional pooling operations with fuzzy pooling improves feature preservation during the encoding process while maintaining computational efficiency. Experimental evaluation using the ACDC dataset confirmed that the proposed framework achieved accurate segmentation of the left ventricle, right ventricle, and myocardium, providing a reliable anatomical representation that serves as the foundation for subsequent myocardium and myocardial scar analysis.
+
+\subsection{Contribution to Myocardium Segmentation}
+
+The second contribution of this research is the systematic investigation of different loss functions for reliable myocardium segmentation using an identical segmentation framework. By maintaining the same network architecture, dataset, preprocessing procedure, and experimental configuration throughout all comparative experiments, the influence of the loss function was evaluated independently. The experimental results demonstrated that different loss functions emphasize different aspects of segmentation performance. Among the investigated approaches, CrossLov consistently provided the most balanced segmentation performance by simultaneously achieving high overlap accuracy and accurate boundary localization. These findings demonstrate that appropriate loss function selection plays an important role in achieving reliable and anatomically consistent myocardium segmentation.
+
+\subsection{Contribution to Myocardial Scar Assessment}
+
+The third contribution of this research is the development of the MyoScarNet-RA framework for automated myocardial scar assessment from multi-sequence CMR images. By integrating residual learning with a hybrid attention mechanism, the proposed framework effectively captures both local structural details and contextual contextual information required for accurate scar segmentation and quantitative scar area estimation. Experimental evaluation demonstrated that the proposed framework achieved reliable scar segmentation and quantitative scar assessment, providing an effective approach for automated analysis of myocardial infarction-related scar characteristics from CMR images.
+
+\subsection{Overall Scientific Contribution}
+\label{subsec:ch7-scientific-contributions}
+
+This dissertation presents an integrated deep learning framework for cardiac magnetic resonance image analysis toward myocardial infarction assessment by systematically addressing three complementary stages, namely cardiac structure segmentation, myocardium segmentation, and myocardial scar assessment. Collectively, the proposed methods demonstrate that reliable CMR image analysis benefits from the integration of accurate anatomical representation, appropriate loss function selection, and robust myocardial scar assessment. These complementary contributions establish a coherent methodological framework and represent an important step toward automated myocardial infarction assessment.
+
+\section{Limitations}
+\label{sec:ch7-limitations}
+
+This research has several limitations that should be acknowledged. First, the proposed methods were evaluated using publicly available benchmark datasets, which may not fully represent the diversity of clinical imaging protocols, scanner vendors, and patient populations encountered in real-world practice. Second, each methodological contribution was developed and evaluated independently to investigate specific research objectives rather than as a unified end-to-end framework. Third, the scope of myocardial scar assessment was limited to automated scar segmentation and quantitative scar area estimation, without incorporating additional clinical indicators or patient outcome analysis.
+
+Despite these limitations, the proposed methods provide complementary methodological contributions that collectively establish a coherent framework for cardiac magnetic resonance image analysis toward myocardial infarction assessment.
+
+\section{Future Works}
+\label{sec:ch7-future-work}
+
+Building upon the contributions of this dissertation, several directions for future research can be explored. First, the proposed framework should be validated using larger multi-center CMR datasets acquired from different institutions and MRI vendors to further evaluate its robustness and generalization capability under diverse clinical imaging conditions.
+
+Second, future studies may investigate an end-to-end deep learning framework that integrates cardiac structure segmentation, myocardium segmentation, and myocardial scar assessment within a unified learning architecture. Such an approach may improve computational efficiency while enhancing consistency across different stages of the analysis pipeline.
+
+Third, additional quantitative imaging biomarkers, such as scar transmurality, myocardial tissue characteristics, and ventricular functional parameters, may be incorporated to provide a more comprehensive assessment of myocardial infarction from CMR images.
+
+Finally, prospective clinical validation involving collaboration with cardiologists is required to evaluate the applicability of the proposed framework in routine clinical practice and to further support the development of automated CMR-based myocardial infarction assessment.
