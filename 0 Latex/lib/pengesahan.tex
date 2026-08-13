@@ -1,0 +1,104 @@
+\ifthenelse{\boolean{bThesis}}
+{ 
+	\AddToShipoutPicture*{\BackgroundIm}
+	\begin{center}
+		\Large\textbf{\pPengesahan}
+	\end{center}
+	
+	\begin{center}
+		\tsss\\
+		\vspace{1ex}
+		\textbf{\ggGelar}\\
+		at\\
+		\textbf{Institut Teknologi Sepuluh Nopember}\\
+		\vspace{1ex}
+		By:\\
+		\textbf{\NamaMahasiswa}\\
+		\textbf{NRP: \NrpMahasiswa}\\
+		\vspace{1ex}
+		Examination Date: \TglUjian\\
+		Graduation Period: \PerWisuda\\
+		\vspace{1ex}
+	\end{center}
+	
+	\begin{center}
+		Approved by:\\
+		\textbf{Supervisors}:
+	\end{center}
+	
+	\begin{enumerate}
+		\item \PbSatu \hfill ...............................\\
+		NIP. \NipPbSatu \vfill
+		\ifthenelse{\boolean{PembimbingDua}}{\item \PbDua \hfill ...............................\\ NIP. \NipPbDua}{}\vfill
+		\ifthenelse{\boolean{PembimbingTiga}}{\item \PbTiga \hfill ...............................\\ NIP. \NipPbTiga}{}
+	\end{enumerate}	
+	
+	\begin{center}
+		\textbf{Examiners}:
+	\end{center}
+	
+	\begin{enumerate}
+		\item \PjSatu \hfill ...............................\\
+		NIP. \NipPjSatu
+		\vfill
+		\item \PjDua \hfill ...............................\\
+		NIP. \NipPjDua \vfill
+		\ifthenelse{\boolean{PengujiTiga}}{
+			\item \PjTiga \hfill ...............................\\
+			\ifthenelse{\equal{\NipPjTiga}{}}{}{NIP: \NipPjTiga}\vfill}{}
+	\end{enumerate}	
+	\vfill
+	
+	\begin{center}
+		Head of \Dep\ Department\\
+		\fak\\
+		\vspace{9ex}
+		\underline{\NmKaDep}\\
+		NIP.\NipKaDep
+	\end{center}
+	\newpage
+}
+{
+	\begin{center}
+		\textbf{STATEMENT OF APPROVAL\\ \prop}
+	\end{center}
+	\vspace{5ex}
+	
+	\begin{tabular}{p{2cm} c p{8cm}}
+		Judul &:& \JdTesis \\
+		Oleh  &:& \NamaMahasiswa \\
+		NRP   &:& \NrpMahasiswa
+	\end{tabular}
+	\vspace{5ex}
+	
+	\begin{center}
+		\textbf{Telah Diseminarkan Pada}
+	\end{center}
+	
+	\begin{tabular}{p{2cm} c p{8cm}}
+		Hari    &:& \bHariUjian \\
+		Tanggal &:& \TglUjian \\
+		Tempat  &:& \bTempatUjian
+	\end{tabular}
+	\vspace{5ex}
+	
+	\begin{tabular}{p{8cm} p{8cm}}
+		\textbf{Penguji} & \textbf{Calon Pembimbing} \\
+		\vspace{8ex}\hspace{-10ex}1. \PjSatu & \vspace{8ex}\hspace{-8ex}1. \PbSatu \\
+		\hspace{-7ex}NIP: \NipPjSatu & \hspace{-5ex}NIP: \NipPbSatu \\
+		
+		\vspace{8ex}\hspace{-10ex}2. \PjDua & 
+		\ifthenelse{\boolean{PembimbingDua}}{\vspace{8ex}\hspace{-8ex}2. \PbDua}{} \\
+		\hspace{-7ex}NIP: \NipPjDua & 
+		\ifthenelse{\boolean{PembimbingDua}}{\hspace{-5ex}NIP: \NipPbDua}{} \\
+		
+		\ifthenelse{\boolean{PengujiTiga}}{\vspace{8ex}\hspace{-10ex}3. \PjTiga}{} & 
+		\ifthenelse{\boolean{PembimbingTiga}}{\vspace{8ex}\hspace{-8ex}3. \PbTiga}{} \\
+		\ifthenelse{\boolean{PengujiTiga}}{\hspace{-7ex}NIP: \NipPjTiga}{} & 
+		\ifthenelse{\boolean{PembimbingTiga}}{\hspace{-5ex}NIP: \NipPbTiga}{} \\
+		
+		\ifthenelse{\boolean{PengujiEmpat}}{\vspace{8ex}\hspace{-10ex}4. \PjEmpat}{} & \\
+		\ifthenelse{\boolean{PengujiEmpat}}{\hspace{-7ex}NIP: \NipPjEmpat}{} & \\
+	\end{tabular}
+	\newpage
+}

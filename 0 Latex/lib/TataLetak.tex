@@ -1,0 +1,201 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FILE INI JANGAN DI UBAH ATAU MODIFIKASI
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\normalsize
+\pagenumbering{roman}
+\singlespacing
+ \hyphenpenalty=1000
+\tolerance=1000
+\emergencystretch=2.5em
+% Cover
+%\addcontentsline{toc}{chapter}{Cover}
+\input{lib/cover.tex}
+\cleardoublepage
+% Lembar pengesahan
+\addcontentsline{toc}{chapter}{STATEMENT OF APPROVAL}
+\input{lib/pengesahan.tex}
+\cleardoublepage
+
+\ifthenelse{\boolean{bThesis}}
+{
+	\ifthenelse{\boolean{bMaster}}
+	{
+		\chapter*{PERNYATAAN KEASLIAN TESIS}
+		\addcontentsline{toc}{chapter}{PERNYATAAN KEASLIAN TESIS}
+		
+		\begin{spacing}{1.5}
+			Dengan ini saya menyatakan bahwa isi keseluruhan Tesis saya dengan judul \textbf{\JdTesis} adalah benar-benar hasil karya intelektual mandiri, diselesaikan tanpa menggunakan bahan-bahan yang tidak diijinkan dan bukan merupakan karya pihak lain yang saya akui sebagai karya sendiri.
+			
+			Semua referensi yang dikutip maupun dirujuk telah ditulis secara lengkap pada daftar pustaka. Apabila ternyata pernyataan ini tidak benar, saya bersedia menerima sanksi sesuai peraturan yang berlaku.
+			
+			\hspace{30ex}Surabaya \today
+			
+			\vspace{10ex}
+			
+			\hspace{35ex}\underline{\NamaMahasiswa}
+			
+			\hspace{35ex}Nrp :\NrpMahasiswa
+		\end{spacing}
+		\cleardoublepage
+	}
+	{	
+		\chapter*{DISSERTATION ORIGINALITY STATEMENT}
+		\addcontentsline{toc}{chapter}{DISSERTATION ORIGINALITY STATEMENT}
+		
+		\begin{spacing}{1.5}
+			The undersigned below,
+			
+			\vspace{0.2cm}
+			
+			\begin{tabularx}{\textwidth}{@{}p{3.2cm}p{0.3cm}>{\raggedright\arraybackslash}X@{}}
+			Name
+			& : & Riandini \\
+			
+			Supervisor
+			& : & Prof. Dr. Ir. Mauridhi Hery Purnomo, M.Eng.\\
+			
+			Co-Supervisor 1
+			& : & Prof. Dr. I Ketut Eddy Purnama, S.T., M.T. \\
+			
+			Co-Supervisor 2
+			& : & Dr. Eko Mulyanto Yuniarno, S.T., M.T.\\ 
+			
+			Study Program
+			& : & Doctoral Program in Electrical Engineering \\
+			
+			Department
+			& : & Electrical Engineering \\
+			
+			Faculty
+			& : & Faculty of Intelligent Electrical and Informatics Technology \\
+			\end{tabularx}
+			
+			\vspace{0.4cm}
+			
+			\justifying
+			hereby declares that the dissertation entitled \textbf{\JdTesis} are truly independent intellectual work, completed without the use of unauthorized materials and are not the work of others that I acknowledge as my own.
+			
+			All references cited or referred to have been written in full in the bibliography. If it turns out that this statement is not true, I am willing to accept sanctions according to applicable regulations at Institut Teknologi Sepuluh Nopember (ITS), Surabaya, Indonesia.
+			
+			\begin{flushright}
+				\begin{minipage}{15cm}
+					\centering
+					Surabaya, \today \\
+					Student
+					
+					\vspace{3ex}
+					
+					\hspace*{-4cm}{\color{gray!50}\small [Materai]}
+					
+					\vspace{6ex}
+					
+					Riandini\\
+					NRP: 7022222013\\
+					\vspace{3ex}
+				\end{minipage}
+			\end{flushright}
+			
+			\vspace{0.5cm}
+			
+			\begin{center}
+				Acknowledged by,
+			\end{center}
+			
+			\vspace{-0.2cm}
+			
+			\noindent
+			\begin{tabularx}{\textwidth}{
+					>{\centering\arraybackslash}X
+					>{\centering\arraybackslash}X
+					>{\centering\arraybackslash}X
+				}
+				Supervisor,
+				&
+				Co-Supervisor 1,
+				&
+				Co-Supervisor 2,
+				\\[0.3cm]
+				
+				\vspace{8ex}
+				\underline{Prof. Mauridhi Hery P}
+				&
+				\vspace{8ex}
+				\underline{Prof. I Ketut Eddy P}
+				&
+				\vspace{8ex}
+				\underline{Dr. Eko Mulyanto Y}
+				\\
+				
+				\small NIP.~195809161986011001
+				&
+				\small NIP.~196907301995121001
+				&
+				\small NIP.~196806011995121009
+			\end{tabularx}
+			
+			\vfill
+			
+			\begin{center}
+				v
+			\end{center}
+		\end{spacing}
+		\cleardoublepage
+	}
+}
+{}
+
+
+
+
+% Kata pengantar
+\newpage
+
+\addcontentsline{toc}{chapter}{PREFACE}
+\input{ubah/pengantar}
+\cleardoublepage
+\newpage
+% Abstrak
+\input{ubah/abstrak}
+\cleardoublepage
+\ifthenelse{\boolean{JudulTesisEng}}
+{
+	\input{ubah/abstrakEng}
+}{}
+\cleardoublepage
+
+% Daftar isi
+\renewcommand*\contentsname{TABLE OF CONTENTS}
+\titlespacing*{\chapter}{0pt}{0ex}{0ex}
+\tableofcontents
+\cleardoublepage
+% Daftar gambar
+\renewcommand*\listfigurename{LIST OF FIGURES}
+\addcontentsline{toc}{chapter}{\listfigurename}
+\titlespacing*{\chapter}{0pt}{0ex}{0ex}
+\listoffigures
+\cleardoublepage
+% Daftar tabel
+\renewcommand*\listtablename{LIST OF TABLES}
+\addcontentsline{toc}{chapter}{\listtablename}
+\titlespacing*{\chapter}{0pt}{0ex}{0ex}
+\listoftables
+\cleardoublepage
+% Nomenklatur
+\addcontentsline{toc}{chapter}{ABBREVIATIONS} % kata pengantar
+\input{ubah/nomenklatur}
+\cleardoublepage
+
+
+
+% Bab isi buku
+\pagenumbering{arabic}
+\titleformat{\chapter}[display]{\bfseries\Large}{CHAPTER \centering\thechapter}{0ex}{\vspace{0ex}\centering}[\vspace{0ex}]
+\titleformat{\section}{\bfseries\large}{\MakeUppercase{\thesection}}{1ex}{}
+\titleformat{\subsection}{\bfseries\large}{\MakeUppercase{\thesubsection}}{1ex}{}
+\titleformat{\subsubsection}{\bfseries\large}{\MakeUppercase{\thesubsubsection}}{1ex}{}
+\titlespacing*{\chapter}{0pt}{-4ex}{0pt}
+\titlespacing{\section}{0pt}{0pt}{0pt}
+\titlespacing{\subsection}{0pt}{0pt}{0pt}
+\titlespacing{\subsubsection}{0pt}{0pt}{0pt}
+% Indent paragraph
+\setlength{\parindent}{0.8cm}
