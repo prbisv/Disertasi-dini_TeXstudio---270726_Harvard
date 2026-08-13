@@ -1,0 +1,14 @@
+\begin{spacing}{1}
+\input{./lib/identitasabstrak.tex}	
+%Tulis Abstrak disini
+
+\textit{Myocardial Infarction (MI)} merupakan salah satu penyebab utama kematian akibat penyakit kardiovaskular di dunia. \textit{Cardiac Magnetic Resonance (CMR)} berperan penting dalam mengevaluasi struktur jantung dan karakteristik jaringan miokard. Namun, analisis citra CMR masih banyak dilakukan secara manual sehingga memerlukan waktu, bergantung pada pengalaman klinisi, dan berpotensi menimbulkan variasi antar-pengamat. Kompleksitas anatomi jantung, ketidakseimbangan kelas pada segmentasi miokard, serta karakteristik \textit{scar} yang heterogen juga menjadi tantangan dalam pengembangan analisis citra CMR secara otomatis.
+Penelitian ini bertujuan mengembangkan pendekatan berbasis \textit{Deep Learning} untuk analisis citra CMR dalam mendukung penilaian MI. Pendekatan yang diusulkan mencakup segmentasi struktur jantung menggunakan \textit {Enhanced} U-Net dengan \textit{fuzzy pooling}, peningkatan keandalan segmentasi miokard melalui investigasi \textit{loss function}, segmentasi \textit{scar} miokard menggunakan \textit{Residual Attention Network}, serta kuantifikasi luas \textit{scar} untuk mendukung penilaian MI. Evaluasi dilakukan menggunakan dataset ACDC untuk segmentasi struktur jantung serta MyoPS2020 untuk segmentasi dan kuantifikasi \textit{scar} miokard.
+Hasil penelitian menunjukkan bahwa penerapan \textit{fuzzy pooling} menghasilkan \textit{Intersection over Union (IoU)} sebesar 93,43\% pada fase \textit{End-Diastole} dan 85,80\% pada fase \textit{End-Systole}, serta menurunkan \textit{Hausdorff Distance (HD)} masing-masing sebesar 52,6\% dan 25,5\%, yang menunjukkan peningkatan ketelitian batas segmentasi. Investigasi \textit{loss function} menunjukkan bahwa kombinasi \textit{Cross-Entropy} dan \textit{Lovász-Softmax} memberikan kinerja terbaik dengan \textit{Dice Score} sebesar 98,10\% untuk segmentasi miokard. Selanjutnya, \textit{Residual Attention Network} menghasilkan \textit{Dice Similarity Coefficient (DSC)} sebesar 93,26\% untuk segmentasi \textit{scar}. Pada kuantifikasi luas \textit{scar}, diperoleh \textit{Mean Absolute Error (MAE)} sebesar 5,43 mm² serta kesesuaian yang baik antara hasil kuantifikasi otomatis dan pengukuran referensi berdasarkan analisis \textit{Bland–Altman}. Secara keseluruhan, pendekatan yang dikembangkan mengintegrasikan seluruh tahapan analisis citra CMR sehingga mampu mendukung penilaian MI yang lebih akurat dan konsisten.
+
+
+%Tulis Kata Kunci disini
+\vspace{2ex}
+\textbf{Kata kunci }: \textit{Cardiac Magnetic Resonance (CMR)}, \textit{Deep Learning}, \textit{Myocardial Infarction (MI)}, segmentasi miokard, segmentasi \textit{scar} miokard, kuantifikasi \textit{scar}, \textit{fuzzy pooling}, \textit{loss function}
+\end{spacing}
+

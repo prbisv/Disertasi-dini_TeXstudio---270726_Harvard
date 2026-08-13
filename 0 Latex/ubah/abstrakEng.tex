@@ -1,0 +1,14 @@
+\begin{spacing}{1}
+\input{./lib/identitasabstrakEng.tex}	
+%Tulis Abstrak disini
+
+Myocardial infarction (MI) remains one of the leading causes of cardiovascular mortality worldwide. Cardiac Magnetic Resonance (CMR) plays an important role in evaluating cardiac anatomy and myocardial tissue characteristics. However, CMR image analysis is still predominantly performed manually, making the process time-consuming, highly dependent on clinical expertise, and susceptible to inter-observer variability. In addition, the complexity of cardiac anatomy, class imbalance in myocardium segmentation, and the heterogeneous characteristics of myocardial scar tissue continue to pose significant challenges for automated CMR image analysis.
+This dissertation aims to develop a deep learning-based approach for CMR image analysis to support MI assessment. The proposed approach comprises cardiac structure segmentation using an Enhanced U-Net with fuzzy pooling, improved myocardium segmentation through loss function investigation, myocardial scar segmentation using a Residual Attention Network, and quantitative scar area assessment. The proposed methods were evaluated using the ACDC dataset for cardiac structure segmentation and the MyoPS2020 dataset for myocardial scar segmentation and scar quantification.
+The results demonstrate that fuzzy pooling achieved Intersection over Union (IoU) values of 93.43\% for the End-Diastole phase and 85.80\% for the End-Systole phase while reducing the Hausdorff Distance (HD) by 52.6\% and 25.5\%, respectively, indicating more accurate segmentation boundaries. Loss function investigation showed that the combination of Cross-Entropy and Lovász-Softmax achieved the best performance with a Dice Score of 98.10\% for myocardium segmentation. Furthermore, the Residual Attention Network achieved a Dice Similarity Coefficient (DSC) of 93.26\% for myocardial scar segmentation. Quantitative scar assessment produced a Mean Absolute Error (MAE) of 5.43 mm² and demonstrated good agreement between automated and reference measurements based on Bland–Altman analysis.
+Overall, the proposed approach integrates the key stages of CMR image analysis to support more accurate and consistent MI assessment.
+
+
+\vspace{2ex}
+%Tulis Kata Kunci disini
+\textbf{Keyword}: Cardiac Magnetic Resonance (CMR), Deep Learning, Myocardial Infarction (MI), myocardium segmentation, myocardial scar segmentation, scar quantification, fuzzy pooling, loss function.
+\end{spacing}
